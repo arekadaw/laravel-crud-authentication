@@ -1,8 +1,6 @@
-## Laravel-Crud-Authentication
-
 ### Project install
 `
-git clone https://github.com/batuhanbatal/laravel-crud-authentication.git 
+git clone https://github.com/arekadaw/laravel-crud-authentication
 `
 
 ### Vendor folder and other files
@@ -16,12 +14,13 @@ Copy **.env.example** file rename to **.env**
 `
 php artisan key:generate
 `
+
 ### Database connection
 Create database and create find these fields in the .env file and enter your information
 
 `
-DB_DATABASE=
-DB_USERNAME=
+DB_DATABASE=laracrudauth
+DB_USERNAME=root
 DB_PASSWORD=
 `
 
